@@ -1,5 +1,5 @@
 {
-    "name": "priyank/module-order-comment-history-api",
+    "name": "priyankjivani/module-order-comment-history-api",
     "description": "Lightweight Magento 2 / Adobe Commerce REST Web API extension to retrieve and append order status history comments for mobile apps, CRMs (Zendesk, Salesforce), and ERP syncing.",
     "type": "magento2-module",
     "version": "1.0.0",
@@ -23,7 +23,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Priyank\\OrderCommentApi\\": ""
+            "PriyankJivani\\OrderCommentHistoryApi\\": ""
         }
     }
 }

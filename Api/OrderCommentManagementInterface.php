@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Priyank\OrderCommentApi\Api;
+namespace PriyankJivani\OrderCommentHistoryApi\Api;
 
 interface OrderCommentManagementInterface
 {
@@ -9,7 +9,7 @@ interface OrderCommentManagementInterface
      * Retrieve all status history comments for a specific order.
      *
      * @param int $orderId
-     * @return \Priyank\OrderCommentApi\Api\Data\OrderCommentInterface[]
+     * @return \PriyankJivani\OrderCommentHistoryApi\Api\Data\OrderCommentInterface[]
      * @throws \Magento\Framework\Exception\NoSuchEntityException
      */
     public function getComments(int $orderId): array;

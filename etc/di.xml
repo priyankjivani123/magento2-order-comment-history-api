@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <preference for="Priyank\OrderCommentApi\Api\OrderCommentManagementInterface"
-                type="Priyank\OrderCommentApi\Model\OrderCommentManagement"/>
-    <preference for="Priyank\OrderCommentApi\Api\Data\OrderCommentInterface"
-                type="Priyank\OrderCommentApi\Model\Data\OrderComment"/>
+    <preference for="PriyankJivani\OrderCommentHistoryApi\Api\OrderCommentManagementInterface"
+                type="PriyankJivani\OrderCommentHistoryApi\Model\OrderCommentManagement"/>
+    <preference for="PriyankJivani\OrderCommentHistoryApi\Api\Data\OrderCommentInterface"
+                type="PriyankJivani\OrderCommentHistoryApi\Model\Data\OrderComment"/>
 </config>

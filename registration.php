@@ -5,6 +5,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'Priyank_OrderCommentApi',
+    'PriyankJivani_OrderCommentHistoryApi',
     __DIR__
 );

@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Priyank\OrderCommentApi\Model;
+namespace PriyankJivani\OrderCommentHistoryApi\Model;
 
 use Magento\Sales\Api\OrderRepositoryInterface;
 use Magento\Sales\Model\Order\Status\HistoryFactory;
 use Magento\Sales\Api\OrderStatusHistoryRepositoryInterface;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\Exception\LocalizedException;
-use Priyank\OrderCommentApi\Api\OrderCommentManagementInterface;
-use Priyank\OrderCommentApi\Api\Data\OrderCommentInterfaceFactory;
+use PriyankJivani\OrderCommentHistoryApi\Api\OrderCommentManagementInterface;
+use PriyankJivani\OrderCommentHistoryApi\Api\Data\OrderCommentInterfaceFactory;
 
 class OrderCommentManagement implements OrderCommentManagementInterface
 {

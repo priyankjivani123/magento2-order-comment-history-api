@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Priyank\OrderCommentApi\Model\Data;
+namespace PriyankJivani\OrderCommentHistoryApi\Model\Data;
 
 use Magento\Framework\DataObject;
-use Priyank\OrderCommentApi\Api\Data\OrderCommentInterface;
+use PriyankJivani\OrderCommentHistoryApi\Api\Data\OrderCommentInterface;
 
 class OrderComment extends DataObject implements OrderCommentInterface
 {

@@ -4,7 +4,7 @@
     
     <!-- Retrieve all status comments for an order -->
     <route url="/V1/orders/:orderId/comments" method="GET">
-        <service class="Priyank\OrderCommentApi\Api\OrderCommentManagementInterface" method="getComments"/>
+        <service class="PriyankJivani\OrderCommentHistoryApi\Api\OrderCommentManagementInterface" method="getComments"/>
         <resources>
             <resource ref="Magento_Sales::actions_view"/>
         </resources>
@@ -12,7 +12,7 @@
 
     <!-- Append a new comment to order history -->
     <route url="/V1/orders/:orderId/comments" method="POST">
-        <service class="Priyank\OrderCommentApi\Api\OrderCommentManagementInterface" method="addComment"/>
+        <service class="PriyankJivani\OrderCommentHistoryApi\Api\OrderCommentManagementInterface" method="addComment"/>
         <resources>
             <resource ref="Magento_Sales::actions_edit"/>
         </resources>
