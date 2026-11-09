@@ -1,0 +1,29 @@
+{
+    "name": "priyank/module-order-comment-history-api",
+    "description": "Lightweight Magento 2 / Adobe Commerce REST Web API extension to retrieve and append order status history comments for mobile apps, CRMs (Zendesk, Salesforce), and ERP syncing.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Priyank Jivani",
+            "email": "priyankjivani48@gmail.com",
+            "homepage": "https://www.upwork.com/freelancers/priyankjivani",
+            "role": "Senior Magento 2 Backend Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1.0",
+        "magento/framework": ">=103.0.0",
+        "magento/module-sales": ">=103.0.0",
+        "magento/module-webapi": ">=100.4.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Priyank\\OrderCommentApi\\": ""
+        }
+    }
+}

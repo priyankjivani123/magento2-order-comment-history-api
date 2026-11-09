@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    
+    <!-- Retrieve all status comments for an order -->
+    <route url="/V1/orders/:orderId/comments" method="GET">
+        <service class="Priyank\OrderCommentApi\Api\OrderCommentManagementInterface" method="getComments"/>
+        <resources>
+            <resource ref="Magento_Sales::actions_view"/>
+        </resources>
+    </route>
+
+    <!-- Append a new comment to order history -->
+    <route url="/V1/orders/:orderId/comments" method="POST">
+        <service class="Priyank\OrderCommentApi\Api\OrderCommentManagementInterface" method="addComment"/>
+        <resources>
+            <resource ref="Magento_Sales::actions_edit"/>
+        </resources>
+    </route>
+</routes>
